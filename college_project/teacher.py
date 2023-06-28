@@ -7,5 +7,3 @@ class Teachers(Person):
         super().__init__(name, phone, email)
         lst.append(self)
 
-    def test(self):
-        pass
