@@ -8,3 +8,4 @@ yosi = Student('Yosi', '0543332222', 'Yosi@gmail.com')
 mivchar.student_manager.add(moshe)
 
 print(mivchar.student_manager.get(moshe))
+print('hi')
