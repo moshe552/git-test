@@ -3,9 +3,7 @@ from student import Student
 
 
 mivchar = College('Mivchar')
-moshe = Student('Moshe', '0543332221', 'Moshe@gmail.com')
-yosi = Student('Yosi', '0543332222', 'Yosi@gmail.com')
-mivchar.student_manager.add(moshe)
+mivchar.student_manager.add(Student('Moshe', '0543332221', 'Moshe@gmail.com'))
+mivchar.student_manager.add(Student('Yosi', '0543332222', 'Yosi@gmail.com'))
+mivchar.student_manager.print_all(1)
 
-print(mivchar.student_manager.get(moshe))
-print('hi')
